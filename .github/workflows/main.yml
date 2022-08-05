@@ -32,4 +32,4 @@ jobs:
             yarn install
             yarn build
             rm -rf /var/www/rochafi-bootcamp.my.id/html/*
-            cp -r /build/* /var/www/rochafi-bootcamp.my.id/html/
+            cp -r build/* /var/www/rochafi-bootcamp.my.id/html/
