@@ -8,7 +8,9 @@ function App() {
 
   const getUsers = async () => {
     try {
-      const response = await axios.get("http://localhost:7000/users");
+      const response = await axios.get(
+        "https://api.rochafi-bootcamp.my.id/users"
+      );
       setUsers(response.data.data.result);
     } catch (error) {
       console.log({ error });
