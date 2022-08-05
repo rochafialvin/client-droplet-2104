@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>List of candidate</p>
+        <p>Candidates</p>
         <ul>{renderUsers()}</ul>
         <a
           className="App-link"
